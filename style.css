@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section .container {
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.section .container .box {
+  width: 250px;
+  height: 300px;
+  border: 1px solid #000;
+  position: relative;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.section .container .box .card-content .card {
+  position: relative;
+  width: 220px;
+  height: 180px;
+  margin: 10px auto;
+}
+
+.section .container .box .card-content .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+
+.section .container .box .card-content .card span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.section .container .box .card-content .card:hover span {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+.section .container .box .card-content .price {
+  text-align: center;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.section .container .box .card-content .discount {
+  font-size: 14px;
+  background-color: #f00;
+  width: 45px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 1px;
+  color: #ffffff;
+  margin: 15px auto;
+}
+
+.section .container .box .card-content .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(214, 127, 127);
+  border-radius: 0 0 7px 7px;
+}
+
+.section .container .box .card-content .btn a {
+  color: #f00;
+  font-weight: 700;
+}
+
+.section .container .box:nth-child(2) .card-content .btn {
+  background-color: rgb(142, 134, 250);
+}
+
+.section .container .box:nth-child(3) .card-content .btn {
+  background-color: rgb(161, 155, 241);
+}
+
+.section .container .box:nth-child(4) .card-content .btn {
+  background-color: rgb(241, 155, 195);
+}
+.section .container .box:nth-child(5) .card-content .btn {
+  background-color: rgb(255, 214, 30);
+}
+.section .container .box:nth-child(6) .card-content .btn {
+  background-color: rgb(228, 213, 4);
+}
+.section .container .box:nth-child(7) .card-content .btn {
+  background-color: rgb(155, 231, 241);
+}
+.section .container .box:nth-child(8) .card-content .btn {
+  background-color: rgb(110, 243, 98);
+}
+.section .container .box:nth-child(9) .card-content .btn {
+  background-color: rgb(98, 132, 243);
+}
+.section .container .box:nth-child(10) .card-content .btn {
+  background-color: rgb(255, 189, 6);
+}
+
+.section .container .box .card-content .btn a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+}
